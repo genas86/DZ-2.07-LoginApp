@@ -58,16 +58,64 @@
 		6F01F33A28A27CD900BD6D04 /* DZ-2.06-LoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				6F01F33B28A27CD900BD6D04 /* AppDelegate.swift */,
-				6F01F33D28A27CD900BD6D04 /* SceneDelegate.swift */,
-				6F01F33F28A27CD900BD6D04 /* LoginViewController.swift */,
-				6F01F35128A2A71D00BD6D04 /* WelcomViewController.swift */,
-				6F01F34128A27CD900BD6D04 /* Main.storyboard */,
-				6F01F34428A27CDA00BD6D04 /* Assets.xcassets */,
-				6F01F34628A27CDA00BD6D04 /* LaunchScreen.storyboard */,
-				6F01F34928A27CDA00BD6D04 /* Info.plist */,
+				6F5815AD28A69E3200F7205F /* ViewControllers */,
+				6F5815AE28A69E4B00F7205F /* Models */,
+				6F5815AF28A69E5900F7205F /* Extentions */,
+				6F5815B028A69E8100F7205F /* Storyboards */,
+				6F5815AC28A69B2200F7205F /* App */,
+				6F5815B128A69ED400F7205F /* Resources */,
 			);
 			path = "DZ-2.06-LoginApp";
+			sourceTree = "<group>";
+		};
+		6F5815AC28A69B2200F7205F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6F01F33D28A27CD900BD6D04 /* SceneDelegate.swift */,
+				6F01F33B28A27CD900BD6D04 /* AppDelegate.swift */,
+				6F01F34928A27CDA00BD6D04 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6F5815AD28A69E3200F7205F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F01F33F28A27CD900BD6D04 /* LoginViewController.swift */,
+				6F01F35128A2A71D00BD6D04 /* WelcomViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6F5815AE28A69E4B00F7205F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F5815AF28A69E5900F7205F /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		6F5815B028A69E8100F7205F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6F01F34128A27CD900BD6D04 /* Main.storyboard */,
+				6F01F34628A27CDA00BD6D04 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6F5815B128A69ED400F7205F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F01F34428A27CDA00BD6D04 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "DZ-2.06-LoginApp/Info.plist";
+				INFOPLIST_FILE = "DZ-2.06-LoginApp/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "DZ-2.06-LoginApp/Info.plist";
+				INFOPLIST_FILE = "DZ-2.06-LoginApp/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
